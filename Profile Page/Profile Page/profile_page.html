@@ -1,0 +1,134 @@
+<!-- Profile Page of User -->
+
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title>Profile Page</title>
+
+		<link rel="stylesheet" type="text/css" href="profile_page.css">
+
+	</head>
+
+	<body>
+
+		<header>
+			<div id="main">
+				<nav>
+					<img src="logo.jpg" width="200" height="150" style="margin-left: 20px">
+					<ul>
+						<!-- <input type="search" placeholder="Search for Products" > -->
+						<textarea type="search" rows="3" cols="100" placeholder="Search for Products"></textarea>
+						<li><a href="#">User</a></li>
+						<li><a href="#">Cart</a></li>
+						<!-- <li><a href="#">Home</a></li>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Home</a></li> -->
+
+					</ul>
+				</nav>
+			</div>
+		
+			
+		</header>
+
+		<div id="container">
+
+			<div class="wrapper">
+			<div class="right">
+				<img src="user.png" alt="user"	width="100">
+				
+			</div>
+			
+		</div>
+
+			<article>
+				<section class = "post-head">
+					<h2>User Details</h2>
+					<small>Last Updated on <time datetime="2019-10-14">October 14th,2019</time></small>					
+				</section>
+
+				<section class="post-body">
+					<p>
+						<form>
+							<fieldset>
+								<legend>
+									Personal Information
+								</legend><br>
+
+								<label>Name</label>
+								<input type="text" placeholder="Enter your name">
+
+								<br><br>
+								<label>Gender</label><br>
+								<input type="radio" name="gender"> Male<br>
+								<input type="radio" name="gender"> Female
+
+								<br>
+								<br>
+
+								<label>Year</label>
+
+								<select>
+									<option>B.E. I Year</option>
+									<option>B.E. II Year</option>
+									<option>B.E. III Year</option>
+									<option>B.E. IV Year</option>
+									<option>M.E. I Year</option>
+									<option>M.E. II Year</option>
+									<option>PhD</option>
+								</select>
+
+								<br><br>
+
+								<label>Email Address</label>
+								<input type="email" placeholder="Enter your email">
+
+								<br><br>
+
+								<label>Mobile Number</label>
+								<input type="Number" placeholder="Enter your number">
+
+								<br><br>
+
+								<label>New Password</label>
+								<input type="Password" placeholder="Enter your Password">
+
+								<br><br>
+
+								<label>Confirm Password</label>
+								<input type="Password" placeholder="Re-enter your Password">
+
+								<br><br>
+								
+								<label>Address</label><br>
+								<textarea rows="10" cols="50"></textarea>
+
+								<br><br>
+
+								<input type="submit" value="Update Profile">
+								<input type="reset" value="Reset">
+
+								<br><br>
+
+							</fieldset>
+						</form>
+					</p>
+				</section>
+
+				<section class="post-foot">
+
+					<p><i><a href=""> About </a></i></p>
+					<p><i><a href=""> Contact <b> Lite-Liberos </b></a></i></p>
+					
+					
+				</section>
+
+			</article>
+
+		</div><!-- #container -->
+
+		<footer>
+				<p>&copy; 2019 &bull; Lite-Liberos</p>
+			</footer>
+	</body>
+</html>
