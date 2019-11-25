@@ -1,0 +1,20 @@
+.pavBhaji {
+  width: 80px;
+  height: 80px;
+  border-radius: 50% !important;
+  padding: 21px !important;
+  position: fixed !important;
+  margin-top: 39% !important;
+  margin-left: 92.5% !important;
+  background: #f25757 !important;
+  color: white !important;
+  font-weight: bold;
+  font-size: 20px;
+  z-index: 5;
+  border: 10px 10px 5px grey !important;
+  outline: hidden !important;
+}
+
+.pavBhaji:hover {
+  border: 5px black solid !important;
+}

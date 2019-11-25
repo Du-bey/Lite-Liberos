@@ -4,6 +4,7 @@ import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
 import Typography from "@material-ui/core/Typography";
+import TrendingUpIcon from "@material-ui/icons/TrendingUp";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import {
   Slider,
@@ -89,6 +90,19 @@ export default function Filters() {
   return (
     <div className={classes.root}>
       <ExpansionPanel
+        expanded={expanded === "panel0"}
+        onChange={handleChange("panel0")}
+      >
+        <ExpansionPanelSummary
+          aria-controls="panel0bh-content"
+          id="panel0bh-header"
+        >
+          <Typography className={classes.secondaryHeading}>
+            Trending <TrendingUpIcon />
+          </Typography>
+        </ExpansionPanelSummary>
+      </ExpansionPanel>
+      <ExpansionPanel
         expanded={expanded === "panel4"}
         onChange={handleChange("panel4")}
       >
@@ -121,7 +135,7 @@ export default function Filters() {
           id="panel1bh-header"
         >
           <Typography className={classes.secondaryHeading}>
-            Select Year
+            Select Author
           </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
@@ -172,7 +186,7 @@ export default function Filters() {
           id="panel2bh-header"
         >
           <Typography className={classes.secondaryHeading}>
-            Select Branch
+            Select Publication
           </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
@@ -264,7 +278,7 @@ export default function Filters() {
           id="panel3bh-header"
         >
           <Typography className={classes.secondaryHeading}>
-            Select Type*
+            Select Type
           </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
@@ -292,9 +306,19 @@ export default function Filters() {
                 label="Competitive Exams Material"
               />
               <FormControlLabel
+                value="3rd year"
+                control={<Radio />}
+                label="Non-Fiction"
+              />
+              <FormControlLabel
+                value="3rd year"
+                control={<Radio />}
+                label="Novel"
+              />
+              <FormControlLabel
                 value="4nd year"
                 control={<Radio />}
-                label="Miscellaneous"
+                label="Others"
               />
             </RadioGroup>
           </FormControl>
