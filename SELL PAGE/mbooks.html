@@ -1,0 +1,387 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+<link rel="stylesheet" href="mbooks.css">
+
+
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+</head>
+
+<header>
+      <div id="main">
+        <nav>
+          <img src="logo.jpg" width="90" height="80" style="margin-left: 20px"> 
+          <ul>
+
+            <li><a href="#" title="More"><span class=" glyphicon glyphicon-menu-hamburger"></span></a></li>
+            <li><a href="#" title="Cart"><span class=" glyphicon glyphicon-shopping-cart"></span></a></li>
+            <li><a href="#" title="Notification"><span class=" glyphicon glyphicon-bell"></span></a></li>
+            <li><a href="#" title="Settings"><span class=" glyphicon glyphicon-cog"></span></a></li>
+            <li><a href="#" title="Log out"><span class=" glyphicon glyphicon-off"></span></a></li>   
+          </ul>
+        </nav>
+      </div>           
+</header>
+
+<hr>
+
+<body>
+  <!-- <button class="sellcircle">Sell</button> -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+		     <div id="accordion">
+					 <div class="card">
+						 <div class="card-header" style="text-align: center"><br><br> 
+							 <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+								 <h3><strong>PRODUCT NAME </strong></h3>
+							 </a><br><br>
+						 </div>
+						 <div id="collapseThree" class="collapse" data-parent="#accordion">
+							 <div class="card-body">
+								 <div class="container">
+									 <div class="row">
+											<div class="col-md-6 border card-body">
+												 <form class="form-horizontal">
+													 <div class="form-group">
+														 <label for="expectedprice" class="control-label col-xs-4">Name of book:</label>
+														 <div class="col-xs-8">
+															 <div class="input-group">
+																 <input placeholder="Book name" id="expectedprice" name="expectedprice" class="form-control" type="text">
+															 </div>
+														 </div>
+													 </div>
+												 	</form>
+											</div>
+										 </div>
+								 </div>
+							 </div>
+						 </div>
+					 </div>
+                  <div class="card">
+                    <div class="card-header"  style="text-align: center"><br><br>
+                      <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                        <h3><strong>CATEGORY</strong></h3>
+                      </a><br><br>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                      <div class="card-body">
+                        <div class="row">
+                             <div class="col-md-4  card-body">
+                                <div class="row pb-2">
+                                    <div class="col-md-12">
+                                        <h5><b>Select a year</b></h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                           <select class="custom-select" size="10">
+                                                   <!--  <option selected>Open this select menu</option> -->
+                                                   
+                                                    <option value="1">B.E - I</option>
+                                                    <option value="2">B.E - II</option>
+                                                    <option value="2">B.E - III</option>
+                                                    <option value="3">B.E - IV</option>
+                                                    <option value="4">M.E - I</option>
+                                              	    <option value="4">M.E - II</option>
+                                                    <option value="5">PhD</option>
+                                                  
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                             <div class="col-md-4  card-body">
+                                <div class="row pb-2">
+                                    <div class="col-md-12">
+                                        <h5><b>Category</b></h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                           <select class="custom-select" size="10">
+                                                    <!-- <option selected>Open this select menu</option> -->
+                                                    <option value="1">Course</option>
+                                                    <option value="2">Fiction</option>
+                                                    <option value="2">GRE</option>
+                                                    <option value="3">GMAT</option>
+                                                    <option value="4">UPSC</option>
+                                                    <option value="5">CAT</option>
+                                                    <option value="6">Horror</option>
+                                                    <option value="7">Thriller</option>
+                                                    <option value="8">Drama</option>
+                                                    <option value="9">Biography</option>
+                                                    <option value="10">Auto-Biography</option>
+                                                    <option value="11">Comic</option>
+
+
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                             <div class="col-md-4  card-body">
+                                <div class="row pb-2">
+                                    <div class="col-md-12">
+                                        <h5><b>Subject</b></h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                           <select class="custom-select" size="10">
+                                                 <!-- <option selected>Open this select menu</option> -->
+                                                <option value="1">custom-select</option>
+                                                <option value="2">ECE</option>
+                                                <option value="2">EEE</option>
+                                                <option value="3">ENI</option>
+                                                <option value="4">Physics</option>
+                                                <option value="5">Bio</option>
+																								<option value="6">Chem</option>
+																								<option value="7">Maths</option>
+																								<option value="8">Economics</option>
+																								<option value="9">Quant</option>
+																								<option value="10">Geography</option>
+                                                <option value="11">History</option>
+                                                <option value="12">Social Science</option>
+																								<option value="16">Others</option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                            <!--  <div class="col-md-3  card-body"> -->
+                                <!-- <div class="row pb-2">
+                                    <div class="col-md-12">
+                                        <h5>No of Owners</h5>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                           <select class="custom-select" size="10">
+                                                  <option selected>Open this select menu</option>
+                                                  <option value="1">Ist</option>
+                                                  <option value="2">IInd</option>
+                                                  <option value="3">IIIrd</option>
+                                                  <option value="4">IVth</option>
+                                                  <option value="5">Vth</option>
+                                                  <option value="6">More Older</option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                </div> -->
+<!--                              </div>
+ -->                            </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="card">
+                    <div class="card-header"  style="text-align: center" ><br><br>
+                      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                        <h3><strong>BOOK DETAILS</strong></h3>
+                      </a><br><br>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                      <div class="card-body">
+                        <div class="container">
+                        	<div class="row">
+                             <div class="col-md-6 border card-body">
+                                <form class="form-horizontal">
+                                  <div class="form-group">
+                                    <label for="expectedprice" class="control-label col-xs-4">Expected Price:</label>
+                                    <div class="col-xs-8">
+                                      <div class="input-group">
+                                        <div class="input-group-addon">
+                                          <i id="pavbhaji" class="fa fa-inr"></i>
+                                        </div>
+                                        <input id="samosa" placeholder="Enter price" id="expectedprice" name="expectedprice" class="form-control" type="text">
+                                      </div>
+                                    </div>
+                                  </div>
+																	<div class="form-group">
+                                    <label for="textarea" class="control-label col-xs-4">Description</label>
+                                    <div class="col-xs-8">
+                                      <textarea placeholder="Enter description" id="textarea" name="textarea" cols="40" rows="5" class="form-control"></textarea>
+                                    </div>
+                                  </div>
+
+                                </form>
+
+
+
+
+                             </div>
+                             <div class="col-md-5">
+                                 <div class="custom-file">
+                                  <input type="file" class="custom-file-input" id="customFile">
+                                  <label class="custom-file-label" for="customFile">1. Upload Photo</label>
+                                 </div>
+                                 <div class="custom-file">
+                                  <input type="file" class="custom-file-input" id="customFile">
+                                  <label class="custom-file-label" for="customFile"> 2.  Upload Photo </label>
+                                 </div>
+                                 <div class="custom-file">
+                                  <input type="file" class="custom-file-input" id="customFile">
+                                  <label class="custom-file-label" for="customFile">3. Upload Photo </label>
+                                 </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header"  style="text-align: center"><br><br>
+                      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                        <h3><strong>USER DETAILS</strong></h3>
+                      </a><br><br>
+                    </div>
+                    <div id="collapseFour" class="collapse" data-parent="#accordion">
+											<div class="card-body">
+			 								 <div class="container">
+			 									 <div class="row">
+			 											<div class="col-xs-10 border card-body">
+			 												 <form class="form-horizontal">
+																 <div class="form-row">
+																		 <div class="form-group col-md-8 nille-ke-pille">
+																			 <label for="expectedprice" class="control-label col-xs-3 pull-left">Full Name</label>
+																			 <input id="Full Name" name="Full Name" placeholder="Full Name" class="form-control nille-ke-pille" type="text">
+																		 </div>
+                                     <br>
+																		 <div class="form-group col-md-8 nille-ke-pille">
+																			 <label for="expectedprice" class="control-label col-xs-2 pull-left">Email</label>
+																			 <input type="email" class="form-control nille-ke-pille" id="inputEmail4 " placeholder="Email">
+																		 </div>
+																	 </div>
+																 <div class="form-row">
+																		 <div class="form-group col-md-8 nille-ke-pille">
+																			 <label for="expectedprice" class="control-label col-xs-3 pull-left">Mobile Number</label>
+																				 <input id="Mobile No." name="Mobile No." placeholder="Mobile No." class="form-control nille-ke-pille" required="required" type="text">
+																		 </div>
+
+
+																 </div>
+                                 
+																<!--  <div class="form-group firerider">
+																	 <label for="textarea" class="control-label col-xs-4 firerider">Address</label>
+																	 <div class="col-xs-8">
+																		 <textarea id="textarea" name="textarea" cols="40" rows="5" class="form-control"></textarea>
+																	 </div>
+																 </div> -->
+
+                                 <div class="form-row">
+                                     <div class="form-group col-md-8 nille-ke-pille">
+                                       <label for="expectedprice" class="control-label col-xs-3 pull-left">Address</label>
+                                         <input id="add" name="add" placeholder="Address" class="form-control nille-ke-pille" required="required" type="text">
+                                     </div>
+
+
+                                 </div>
+
+																 <div class="form-row nille-ke-pille">
+																		 <div class="form-group nille-ke-pille">
+																				 <div class="form-group nille-ke-pille">
+																						 <div class="form-check nille-ke-pille">
+																							 <input class="form-check-input nille-ke-pille" type="checkbox" value="" id="invalidCheck2" required>
+																							 <label class="form-check-label nille-ke-pille" for="invalidCheck2">
+																								 <small>By clicking Submit, you agree to our Terms & Conditions, Visitor Agreement and Privacy Policy.</small>
+																							 </label>
+																						 </div>
+																					 </div>
+
+																			 </div>
+																 </div>
+
+																 <div class="form-row  nille-ke-lille">
+																		 <button type="button" class="btn btn-danger pull-right">Submit</button>
+																 </div>
+
+			 												 	</form>
+			 											</div>
+			 										 </div>
+			 								 </div>
+			 							 </div>
+                    </div>
+                  </div>
+                </div>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+
+<br>
+<hr>
+<br>
+
+<footer>
+    <div class="container">    
+        <div class="row text-center">   
+            <ul class="menu list-inline">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                       
+                <li>
+                   <a href="#">About</a>
+                </li>
+                       
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                       
+                <li>
+                    <a href="#">Partners</a>
+                </li>
+
+                <li>
+                  <a href="#">Team</a>
+                </li>
+
+                <li>
+                   <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div> 
+  </footer>
+
+
+
+<div class="copyright">
+    <div class="container">
+        <div class="row text-center">
+           <p>Copyright &copy; 2019 &bull; <b>Lite-Liberos</b> | All rights reserved</p>
+        </div>
+    </div>
+</div>
+
+</html>
