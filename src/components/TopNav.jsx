@@ -13,7 +13,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import AccountCircle from "@material-ui/icons/AccountCircle";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import MoreIcon from "@material-ui/icons/MoreVert";
-import { Avatar } from "@material-ui/core";
+import { Avatar, Link } from "@material-ui/core";
 import Logo from "./images/LiteLiberosLogo.jpeg";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 
@@ -178,14 +178,20 @@ export default function TopNav() {
           >
             <MenuIcon />
           </IconButton>
-          <IconButton
-            edge="start"
-            className={classes.menuButton}
-            color="inherit"
-            aria-label="open drawer"
-          >
-            <Avatar alt="Remy Sharp" src={Logo} className={classes.bigAvatar} />
-          </IconButton>
+          <Link to="/main">
+            <IconButton
+              edge="start"
+              className={classes.menuButton}
+              color="inherit"
+              aria-label="open drawer"
+            >
+              <Avatar
+                alt="Remy Sharp"
+                src={Logo}
+                className={classes.bigAvatar}
+              />
+            </IconButton>
+          </Link>
           <Typography className={classes.title} variant="h6" noWrap>
             LiteLiberos
           </Typography>
