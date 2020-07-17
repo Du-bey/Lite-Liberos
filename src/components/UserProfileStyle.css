@@ -1,0 +1,33 @@
+.form-container-pavbhaji {
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 30px 40px;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+  height: 100%;
+  font-size: large;
+  margin-top: 8%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.textBox {
+  width: 100%;
+  height: 1px;
+  border-radius: 25px;
+  border: 2px solid #82ced8;
+  padding: 20px;
+  outline: none;
+}
+
+.textBox:focus {
+  border: 3px solid #34929e;
+}
+.mybtn {
+  width: 15%;
+  height: 45px;
+  font-size: 80% !important;
+  border-radius: 100555222654312px !important;
+  outline: none !important;
+}

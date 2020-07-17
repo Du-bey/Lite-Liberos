@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -5,6 +6,7 @@ import App from './App';
 import Home from './components/Home';
 import MainPage from './components/MainPage';
 import * as serviceWorker from './serviceWorker';
+import Leaderboard from './components/Leaderboard';
 
 ReactDOM.render(<MainPage />, document.getElementById('root'));
 
