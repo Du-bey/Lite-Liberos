@@ -1,4 +1,5 @@
 
+
 import React from "react";
 import image1 from "./images/books.jpg";
 import image2 from "./images/cooler.jpg";
@@ -169,4 +170,3 @@ import {makeStyles} from "@material-ui/core/styles";
         ))}
       </div>
   );
-  }
