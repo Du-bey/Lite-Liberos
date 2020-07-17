@@ -1,4 +1,5 @@
 
+
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
@@ -9,6 +10,7 @@ import Buy from "./Buy";
 import Sell from "./Sell";
 
 const useStyles = makeStyles(theme => ({
+
   paper: {
     textAlign: "center",
     color: theme.palette.text.secondary
@@ -19,6 +21,7 @@ export default function FullWidthGrid() {
   const classes = useStyles();
 
   return (
+
     <div styles={{ height: "100vh" }}>
       <Grid
         container

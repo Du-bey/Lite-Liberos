@@ -4,6 +4,7 @@ import image1 from "./images/books.jpg";
 import image2 from "./images/cooler.jpg";
 import image3 from "./images/Logo.jpg";
 import image4 from "./images/stationery.jpg";
+
 import {
   GridList,
   GridListTile,
@@ -28,6 +29,7 @@ import {makeStyles} from "@material-ui/core/styles";
 //       transform: 'translateZ(0)',
 //     },
 // }));
+
 const images = [
   {
     url: "/images/stationery.jpg",
