@@ -1,3 +1,4 @@
+
 import React from "react";
 import image1 from "./images/books.jpg";
 import image2 from "./images/cooler.jpg";
@@ -10,6 +11,8 @@ import {
   Typography
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import { GridList, GridListTile, ButtonBase, Typography } from "@material-ui/core";
+import {makeStyles} from "@material-ui/core/styles";
 
 // const useStyles = makeStyles(theme => ({
 //     root: {

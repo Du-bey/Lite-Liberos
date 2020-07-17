@@ -1,19 +1,21 @@
-import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
-import ListItemText from "@material-ui/core/ListItemText";
-import ListItemAvatar from "@material-ui/core/ListItemAvatar";
-import Checkbox from "@material-ui/core/Checkbox";
-import Avatar from "@material-ui/core/Avatar";
 
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction';
+import ListItemText from '@material-ui/core/ListItemText';
+import ListItemAvatar from '@material-ui/core/ListItemAvatar';
+import Checkbox from '@material-ui/core/Checkbox';
+import Avatar from '@material-ui/core/Avatar';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import { Typography } from '@material-ui/core';
 const useStyles = makeStyles(theme => ({
   root: {
-    width: "100%",
+    width: '100%',
     maxWidth: 360,
-    backgroundColor: theme.palette.background.paper
-  }
+    backgroundColor: theme.palette.background.paper,
+  },
 }));
 
 export default function BuyerLeaderboard() {
